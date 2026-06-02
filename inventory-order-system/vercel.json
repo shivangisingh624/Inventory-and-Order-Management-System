@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "inventory-order-system/frontend/**",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "inventory-order-system/frontend/dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/inventory-order-system/frontend/dist/index.html"
+    }
+  ]
+}
