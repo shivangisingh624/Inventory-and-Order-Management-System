@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/inventory-order-system/frontend/dist/index.html" }
-  ]
-}
